@@ -314,13 +314,43 @@ nav ul li a:hover {
     transition: .2s;
     padding: 10px;
 }
+/*FIM ITEM-4************************/
 
+footer {
+    background-color: #05579E;
+    height: 400px;
+    margin-top: 150px;
+    padding-top: 50px;
+}
+
+.conteiner-footer {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
+footer h5 {
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+footer ul {
+    border: 1px solid red;
+    width: 250px;
+    
+}
+
+footer ul a {
+    color: #777777;
+}
 
 
 
 /************MEDIA QUERIES****************/
 
-@media (max-width: 967px) {
+@media (max-width: 968px) {
 
     .info-esquadrias {
         width: 420px;
@@ -332,6 +362,11 @@ nav ul li a:hover {
 
     .info-esquadrias h2 {
         font-size: 30px;
+    }
+
+    .cards-img {
+        width: 360px;
+        margin: 0 auto;
     }
 }
 
@@ -421,6 +456,10 @@ nav ul li a:hover {
         line-height: 1.6;
         margin-top: 0;
     }
+
+    .cards-img {
+        width: 320px;
+    }
 }
 
 @media (max-width:600px) {
@@ -436,5 +475,6 @@ nav ul li a:hover {
 
     .cards-img {
         margin: 0 auto;
+        width: 80%;
     }
 }
