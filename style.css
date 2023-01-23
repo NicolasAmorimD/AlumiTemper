@@ -510,4 +510,8 @@ footer ul a:hover {
         margin: 0 auto;
         width: 80%;
     }
+
+    footer h5 {
+        font-weight: bold;
+    }
 }
